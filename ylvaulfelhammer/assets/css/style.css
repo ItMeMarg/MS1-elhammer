@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
+
+/*-------------------------------Testing Colors */
+
+/*-------------------------------Margins, Paddings, Borders */
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.navbar {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    background-color: white;
+}
+
+.footer {
+    padding: 5% 0 5% 0;
+    background-color: white;
+}
+
+/*-------------------------------Fonts */
+
+body {
+    font-family: Questrial;
+}
+
+h2 {
+    font-family: Raleway;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+/*-------------------------------Links */
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+/*-------------------------------Navigation */
+
+.nav {
+    text-align: center;
+}
+
+/*-------------------------------Portfolio */
+
+
+
+/*-------------------------------Contact form */
+
+#contact-form {
+    margin: 150px 150px;
+}
+
+#form-border
+ {
+    border-bottom-style: 2px solid black;
+}
+
+textarea {
+    width: 200px;
+    height: 200px;  
+}
+
+/*-------------------------------Footer */
+
+ul,
+li {
+    list-style-type: none;
+    display: inline;   
+}
+
+footer i {
+    font-size: 150%;
+}
+/*-------------------------------Media Queries */
+
+
+@media (min-width: 576px) {
+    
+}
+
+@media (max-width: 767px) {
+        #contact-form {
+            display: block;
+            width: 100%;
+            margin-left: 15px;
+            
+        }
+        
+}
+
+@media (min-width: 992px) {
+    
+}
+
+@media (min-width: 1200px) {
+}
