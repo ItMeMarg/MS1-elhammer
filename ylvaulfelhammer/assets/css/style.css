@@ -1,39 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Questrial:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Josefin+Sans:wght@300;600&display=swap');
 
-/*-------------------------------Testing Colors */
-
-/*-------------------------------Margins, Paddings, Borders */
 
 * {
-    padding: 0;
-    margin: 0;
-    border: 0;
 }
-
-.navbar {
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-top: 1%;
-    background-color: white;
-}
-
-.footer {
-    padding: 5% 0 5% 0;
-    background-color: white;
-}
-
 /*-------------------------------Fonts */
 
 body {
-    font-family: Questrial;
+    font-family: 'Cardo', serif; 
+    font-size: 15px;
 }
 
-h2 {
-    font-family: Raleway;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+header {
+    font-family: 'Josefin Sans', sans-serif;
 }
-
 
 /*-------------------------------Links */
 
@@ -43,60 +22,71 @@ a {
 
 a:hover {
     color: red;
+    text-decoration: none;
 }
-
 /*-------------------------------Navigation */
 
-.nav {
+
+#navbar-brand {
+    font-weight: 300;
+    font-size: 60px;
     text-align: center;
 }
 
-/*-------------------------------Portfolio */
+#navbar-menu {
+    font-weight: 600;
+    font-size: 22.5px;
+    text-align: center;
+}
 
+ #navbar-items {
+     padding: .75em;
+ }
 
+ .navbar {
+     padding: 2%;
+     position: static;
+ }
 
 /*-------------------------------Contact form */
 
-#contact-form {
-    margin: 150px 150px;
-}
 
-#form-border
- {
-    border-bottom-style: 2px solid black;
-}
 
 textarea {
-    width: 200px;
-    height: 200px;  
+    width: 300px;
+    height: 150px;;
+}
+
+#contact-form {
+    margin: 1% auto 10% 2%; 
+    padding-bottom: 5%;   
+}
+
+#fname,
+#lname,
+#email {
+    border-style: none;
 }
 
 /*-------------------------------Footer */
 
-ul,
-li {
-    list-style-type: none;
-    display: inline;   
+i {
+    font-size: 200%;
 }
 
-footer i {
-    font-size: 150%;
+footer {
+     position: static;
 }
+
 /*-------------------------------Media Queries */
 
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
     
 }
 
 @media (max-width: 767px) {
-        #contact-form {
-            display: block;
-            width: 100%;
-            margin-left: 15px;
-            
-        }
-        
+    
 }
 
 @media (min-width: 992px) {
