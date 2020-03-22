@@ -2,6 +2,9 @@
 
 
 * {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 /*-------------------------------Fonts */
 
@@ -26,6 +29,10 @@ a:hover {
 }
 /*-------------------------------Navigation */
 
+nav {
+    position: static;
+    padding-bottom: 2%;
+}
 
 #navbar-brand {
     font-weight: 300;
@@ -45,21 +52,17 @@ a:hover {
 
  .navbar {
      padding: 2%;
-     position: static;
  }
 
 /*-------------------------------Contact form */
 
-
+fieldset {
+    margin: 15rem 5rem 10rem 5rem;  
+}
 
 textarea {
     width: 300px;
     height: 150px;;
-}
-
-#contact-form {
-    margin: 1% auto 10% 2%; 
-    padding-bottom: 5%;   
 }
 
 #fname,
@@ -76,22 +79,24 @@ i {
 
 footer {
      position: static;
+     padding-top: 2%;
 }
 
-/*-------------------------------Media Queries */
+/*----------------------------Media Queries */
 
 
-@media (max-width: 576px) {
-    
+
+@media (min-width: 576px) {
 }
 
-@media (max-width: 767px) {
-    
+
+@media (min-width: 768px) {
 }
 
-@media (min-width: 992px) {
-    
+
+@media (min-width: 992px) { 
 }
+
 
 @media (min-width: 1200px) {
 }
