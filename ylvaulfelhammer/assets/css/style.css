@@ -6,14 +6,14 @@
     padding: 0;
     border: 0;
 }
+
+section {
+    margin: 15rem 5rem 10rem 5rem;  
+}
 /*-------------------------------Fonts */
 
+header,
 body {
-    font-family: 'Cardo', serif; 
-    font-size: 15px;
-}
-
-header {
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -53,12 +53,17 @@ nav {
  .navbar {
      padding: 2%;
  }
+ 
+
+/*-------------------------------About */
+
+#elhammer-picture {
+    margin: 0;
+    block-size: 100%;
+}
 
 /*-------------------------------Contact form */
 
-fieldset {
-    margin: 15rem 5rem 10rem 5rem;  
-}
 
 textarea {
     width: 300px;
@@ -71,7 +76,7 @@ textarea {
     border-style: none;
 }
 
-/*-------------------------------Footer */
+/*-------------------------------Portfolio */
 
 #portfolio-container {
     margin-top: 15rem;
@@ -103,6 +108,7 @@ footer {
 
 
 @media (min-width: 768px) {
+    
 }
 
 
