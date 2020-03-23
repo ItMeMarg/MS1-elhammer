@@ -54,7 +54,6 @@ nav {
      padding: 2%;
  }
  
-
 /*-------------------------------About */
 
 #elhammer-picture {
@@ -63,7 +62,6 @@ nav {
 }
 
 /*-------------------------------Contact form */
-
 
 textarea {
     width: 300px;
@@ -94,8 +92,6 @@ footer {
 }
 
 /*----------------------------Media Queries */
-
-
 
 @media (min-width: 576px) {
 }
