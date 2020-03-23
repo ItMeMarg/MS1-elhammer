@@ -73,6 +73,18 @@ textarea {
 
 /*-------------------------------Footer */
 
+#portfolio-container {
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
+#portfolio-images {
+    padding: 3px;
+}
+
+
+/*-------------------------------Footer */
+
 i {
     font-size: 200%;
 }
