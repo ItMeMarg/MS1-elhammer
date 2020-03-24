@@ -46,6 +46,7 @@ nav {
     text-align: center;
 }
 
+
  #navbar-items {
      padding: .75em;
  }
@@ -56,12 +57,8 @@ nav {
  
 /*-------------------------------Index */
 
-#index-carousel {
-    
-}
 
 /*-------------------------------About */
-
 
 #elhammer-picture {
     margin: 0;

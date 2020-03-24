@@ -3,84 +3,87 @@
 
 <head>
 	<title>Ylva/Ulf Elhammer</title>
-	<!-- meta tags -->
+<!-- meta tags -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<!-- Bootstrap CSS -->
+<!-- Bootstrap 4 -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<!-- FontAwesome -->
+<!-- FontAwesome -->
 	<script src="https://kit.fontawesome.com/00eef04c2f.js" crossorigin="anonymous"></script>
-	<!-- External CSS -->
+<!-- External CSS -->
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 	<header>
+<!--Nav items are fixed to the screen's top to minimize clicks users need to reach desired content. -->
 		<nav class="navbar fixed-top container-fluid bg-white">
 
 			<a class="row no-gutters" href="index.html">
 				<h2 id="navbar-brand">ylva/ulf elhammer</h2>
 			</a>
-
+<!-- Nav bar collapses on smaller screens to reduce interference with users' content interaction. -->
             <nav class="navbar navbar-expand-lg navbar-light">
                 <button class="navbar-toggler btn-outline-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>    
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
+<!-- Used #nav rather than #ul to minimize code. -->
                     <div class="row no-gutters justify-content-around" id="navbar-menu">
                         <a class="nav-link col-6 col-md-3" id="navbar-items" href="index.html">home</a>
                         <a class="nav-link col-6 col-md-3" id="navbar-items" href="about.html">about</a>
                         <a class="nav-link col-6 col-md-3" id="navbar-items" href="contact.html">contact</a>
                         <a class="nav-link col-6 col-md-3 active" id="navbar-items" href="portfolio.html">portfolio</a>
                     </div>
+
                 </div>
             </nav>
 		</nav>
 	</header>
 
 	<section>
-    
+<!-- Used Bootsrap class "cotainer-fluid" for consistancy across pages and layout responsiveness across devices/browser sizes. DIV #portfolio-container allows for easier gallery image positioning, specifically margins/paddings/borders. The portfolio looks clean with one single column on smaller screens and two coloumns on larger screens. -->
         <div class="container-fluid" id="portfolio-container">
         <div class="row">
-            <img class="col-12 col-md-6" id="portfolio-images" src="assets/images/tattoohouse.png"><br>
+
+            <img class="col-12 col-md-6" id="portfolio-images" alt="tattoo with calf placement of black-lined, shaded small house on stilts" src="assets/images/tattoohouse.png"><br>
                 
-            <img class="col-12 col-md-6" id="portfolio-images" src="assets/images/tattooquail.png"><br>
+            <img class="col-12 col-md-6" id="portfolio-images" alt="tattoo with upper arm palcement of a black-outlined quail" src="assets/images/tattooquail.png"><br>
                 
-            <img class="col-12 col-md-6" id="portfolio-images" src="assets/images/tattootaurus.png"><br>
+            <img class="col-12 col-md-6" id="portfolio-images" alt="tattoo with forearm placement of black outline Taurus/zodiac-themed images"  src="assets/images/tattootaurus.png"><br>
                 
-            <img class="col-12 col-md-6" id="portfolio-images" src="assets/images/tattooyak.png"><br>
+            <img class="col-12 col-md-6" id="portfolio-images" alt="tattoo with upper arm placement of a black outlined yak with wheat germ frame" src="assets/images/tattooyak.png"><br>
                 
-            <img class="col-12 col-md-6" id="portfolio-images" src="assets/images/illustrativecats.png"><br>
+            <img class="col-12 col-md-6" id="portfolio-images" alt="colorful portrait of two cats cuddling" src="assets/images/illustrativecats.png"><br>
                 
-            <img class="col-12 col-md-6" id="portfolio-images" src="assets/images/illustrativecoffeeshop.png"><br>
+            <img class="col-12 col-md-6" id="portfolio-images" alt="cartoon-like, brightly colored illustrations of friends" src="assets/images/illustrativecoffeeshop.png"><br>
                 
-            <img class="col-12 col-md-6" id="portfolio-images" src="assets/images/illustrativedog.png"><br>
+            <img class="col-12 col-md-6" id="portfolio-images" alt="catoon-like, brightly colored portrait of a fluffy little dog surrounded by flowers in bloom" src="assets/images/illustrativedog.png"><br>
                 
-            <img class="col-12 col-md-6" id="portfolio-images" src="assets/images/illustrativerooster.png"><br>
+            <img class="col-12 col-md-6" id="portfolio-images" alt="vivdly-colored illustration of a rooster" src="assets/images/illustrativerooster.png"><br>
            
         </div>
         </div> 
 
 	</section>
 
+<!-- Three centered icons fixed on the bottom of the page to make contacting as easy as possible. Placement and coloumns maintain consistancy between screen sizes. -->
 	<footer class="container-fluid bg-white fixed-bottom" style="bottom-margin:0">
 
 		<ol class="row justify-content-center list-unstyled list-group-horizontal">
-			<li><a href="https://www.instagram.com/ylva.tattoo/" target="_blank"
-					class="col-4 justify-content-around align-items-center"><i class="fab fa-instagram"></i></a>
-			</li>
-			<li><a href="https://www.pinterest.com/yelvismanhammer/" target="_blank"
-					class="col-4 justify-content-around align-items-center"><i class="fab fa-pinterest-square"></i></a>
-			</li>
-			<li><a href="contact.html" target="_blank"
-					class="col-4 justify-content-around align-items-center"><i class="fas fa-envelope"></i></a>
-			</li>
+
+			<li><a href="https://www.instagram.com/ylva.tattoo/" target="_blank" class="col-4 justify-content-around align-items-center"><i class="fab fa-instagram"></i></a></li>
+
+			<li><a href="https://www.pinterest.com/yelvismanhammer/" target="_blank" class="col-4 justify-content-around align-items-center"><i class="fab fa-pinterest-square"></i></a></li>
+
+			<li><a href="contact.html" target="_blank" class="col-4 justify-content-around align-items-center"><i class="fas fa-envelope"></i></a></li>
+
 		</ol>
 
 	</footer>
 
-    <!--JS-->
+<!-- JS from Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
