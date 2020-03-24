@@ -108,4 +108,3 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Acknowledgements
 
 - I received inspiration for this project from Brooklyn-based tattoo artist Rosa Bluestone Perr [https://www.bluestonebabe.com/] and modeled the site in general to complement Ylva/Ulf's home studio, Lilith Tattoo Studio (https://www.lilithtattooseattle.com).
-- My mentor, Sindhu, helped me appropriately filter ideas and focus features to construct good UX. 
