@@ -4,8 +4,10 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
+    border: 1px solid red;
 }
+
+
 
 /*-------------------------------Navigation */
 
@@ -46,6 +48,7 @@ a:hover {
 
 #contact-form {
     padding-left: 15px;
+    margin-top: 12%;
 }
 
 textarea {
