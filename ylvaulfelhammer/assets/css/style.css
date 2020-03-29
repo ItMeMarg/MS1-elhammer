@@ -7,22 +7,23 @@
     border: 0;
 }
 
-section {
-}
-
-
 /*-------------------------------Navigation */
 
 .navbar {
     padding: 0;
+    border-top: 10px solid #fff;
+    margin: 0 10px 10px 10px;
+}
+
+.nav-item {
+    font-size: 20px;
 }
 
 #nav{
     background-color: #fff;
 }
 
-ul {
-}
+
 /*-------------------------------Fonts */
 
 header,
@@ -41,8 +42,11 @@ a:hover {
     text-decoration: none;
 }
 
-
 /*-------------------------------Contact form */
+
+#contact-form {
+    padding-left: 15px;
+}
 
 textarea {
     width: 300px;

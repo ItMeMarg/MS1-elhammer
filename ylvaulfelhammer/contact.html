@@ -18,32 +18,33 @@
 <body>
     <header>
     <!-- Nav items are fixed to the screen's top to minimize clicks needed to access content. -->
-        <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
             <div class="container-fluid" id="nav">
-                <a class="navbar-brand" href="index.html"><h2>ylva/ulf elhammer</h2></a>
+                <a class="navbar-brand" href="index.html"><h1>ylva/ulf elhammer</h1></a>
         <!-- Nav bar collapses on smaller screens to reduce interference with users' content interaction. -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse container" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto row">
+                    <ul class="navbar-nav ml-auto justify-content-around">
                         <li class="nav-item col-3"><a class="nav-link" href="index.html">home</a></li>
                         <li class="nav-item col-3"><a class="nav-link" href="about.html">about</a></li>
-                        <li class="nav-item col-3"><a class="nav-link" href="portfolio.html">portfolio</a></li>
                         <li class="nav-item col-3 active"><a class="nav-link" href="contact.html">contact</a></li>
+                        <li class="nav-item col-3"><a class="nav-link" href="portfolio.html">portfolio</a></li>
                     </ul>        
                 </div>  
             </div>
         </nav>
     </header>
 
-	<section id="contact-form">
+	<section class="container-fluid"> 
+    <div class="row justify-content-start"  id="contact-form">
 			<form action="#" target="_self" method="post">
 <!-- Dropped off some of the inputs seen on the wireframe to simplify the form. #fname autofocuses to bring user attention to completing the form. -->
 				<fieldset>
 					<legend>get in touch</legend>
 
-					<div class="form-group">
+					<div class="form-group col-12">
 						<label class="sr-only" for="fname" >First Name</label>
 						<input type="text" id="fname" name="firstname" placeholder="your first name" autofocus required>
                 
@@ -51,12 +52,12 @@
 						<input type="text" id="lname" name="lastname" placeholder="your last name" required>
                     </div>
 
-					<div class="form-group">
+					<div class="form-group col-12">
 						<label class="sr-only" for="email">Email</label>
 						<input type="email" id="email" name="email" placeholder="your email" required>
                     </div>
 
-					<div class="form-group">
+					<div class="form-group col-12">
 						<label for="checkbox">which medium would you like to discuss?</label></br>
 <!-- Check boxes were chosen to add awareness that the artist does both tattoo and illustrative work. This also will help the artist field contacts. -->
 						<input type="checkbox" id="interest1" name="interest1" value="tattoo">
@@ -66,14 +67,15 @@
 						<label for="interest2">illustrative</label>
 					</div>
 <!-- The chosen placeholder prompts the user with helpful information to begin a consultative conversation. -->
-					<div class="form-group">
+					<div class="form-group col-12">
 						<textarea name="message" placeholder="please tell me a bit about your idea, the project's size, and your timeline for this piece."></textarea>
 								</div>
 <!-- Simple submit button matches remainder of site's layout. -->
-								<button type="button" class="btn btn-outline-dark btn-sm">send</button>
+								<button type="button" class="btn btn-outline-dark btn-sm col-2">send</button>
 				</fieldset>
 
 			</form>
+        </div>
 	</section>
 
 <!-- Three centered icons fixed on the bottom of the page to make contacting as easy as possible. Placement and columns maintain consistency between screen sizes. -->
