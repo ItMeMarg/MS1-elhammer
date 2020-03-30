@@ -48,6 +48,8 @@ a:hover {
 #index-carousel {
     margin-top: 6rem;
     margin-bottom: 6rem;
+    max-width: 75vw;
+    max-height: 75vw;
 }
 
 /*-------------------------------About */
@@ -71,7 +73,7 @@ textarea {
 
 #contact-form {
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 #fname,
