@@ -12,7 +12,8 @@
 .navbar {
     padding: 0;
     border-top: 10px solid #fff;
-    margin: 0 10px 10px 10px;
+    border-left: 15px solid #fff;
+    border-right: 15px solid #fff;
 }
 
 .nav-item {
@@ -87,6 +88,7 @@ textarea {
 }
 
 #portfolio-images {
+    padding: .5em;
 }
 
 /*-------------------------------Footer */
