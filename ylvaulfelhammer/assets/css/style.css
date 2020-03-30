@@ -4,10 +4,8 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+    border: 0;
 }
-
-
 
 /*-------------------------------Navigation */
 
@@ -18,19 +16,19 @@
 }
 
 .nav-item {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 #nav{
     background-color: #fff;
 }
 
-
 /*-------------------------------Fonts */
 
 header,
 body {
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
 }
 
 /*-------------------------------Links */
@@ -44,16 +42,35 @@ a:hover {
     text-decoration: none;
 }
 
+/*-------------------------------Index */
+
+#index-carousel {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+/*-------------------------------About */
+
+#about {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
 /*-------------------------------Contact form */
 
-#contact-form {
-    padding-left: 15px;
-    margin-top: 12%;
+fieldset {
+    margin-top: 5rem;
+    padding-left: 2em;
 }
 
 textarea {
-    width: 300px;
+    width: 100%;
     height: 150px;
+}
+
+#contact-form {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 #fname,
@@ -64,17 +81,23 @@ textarea {
 
 /*-------------------------------Portfolio */
 
+#portfolio {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
 #portfolio-images {
 }
 
 /*-------------------------------Footer */
 
 i {
-    font-size: 150%;
+    font-size: 2rem;
 }
 
 footer {
      position: static;
+     background-color: #fff;
 }
 
 /*----------------------------Media Queries */
