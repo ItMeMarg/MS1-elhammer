@@ -45,17 +45,25 @@ a:hover {
 
 /*-------------------------------Index */
 
+.carousel-inner {
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.carousel-item {
+    width: fit-content;
+    height: fit-content;
+}
+
 #index-carousel {
     margin-top: 6rem;
     margin-bottom: 6rem;
-    max-width: 75vw;
-    max-height: 75vw;
 }
 
 /*-------------------------------About */
 
 #about {
-    margin-top: 6rem;
+    margin-top: 8rem;
     margin-bottom: 6rem;
 }
 
