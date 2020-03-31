@@ -67,6 +67,11 @@ a:hover {
     margin-bottom: 6rem;
 }
 
+#elhammer-picture {
+    max-height: 400px;
+    max-width: 450px;
+}
+
 /*-------------------------------Contact form */
 
 fieldset {
