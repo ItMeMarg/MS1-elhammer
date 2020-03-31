@@ -76,11 +76,14 @@ a:hover {
 
 fieldset {
     margin-top: 5rem;
-    padding-left: 2em;
+}
+
+legend {
+    text-align: center;
 }
 
 textarea {
-    width: 100%;
+    width: 90%;
     height: 150px;
 }
 

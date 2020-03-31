@@ -15,6 +15,7 @@
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
+
 <body>
     <header>
     <!-- Nav items are fixed to the screen's top to minimize clicks needed to access content. -->
@@ -38,11 +39,11 @@
     </header>
 
 	<section class="container-fluid" id="contact-form"> 
-    <div class="row justify-content-start">
-			<form action="mailto:itmemarg@gmail.com" method="post">
+    <div class="row justify-content-center">
+			<form action=" " method="POST">
 <!-- Dropped off some of the inputs seen on the wireframe to simplify the form. #fname autofocuses to bring user attention to completing the form. -->
 				<fieldset>
-					<legend>get in touch</legend>
+					<legend><h2>get in touch</h2></legend>
 
 					<div class="form-group col-12">
 						<label class="sr-only" for="fname" >First Name</label>
@@ -60,18 +61,20 @@
 					<div class="form-group col-12">
 						<label for="checkbox">which medium would you like to discuss?</label></br>
 <!-- Check boxes were chosen to add awareness that the artist does both tattoo and illustrative work. This also will help the artist field contacts. -->
-						<input type="checkbox" id="interest1" name="interest1" value="tattoo" required />
+						<input type="checkbox" id="interest1" name="interest1" value="tattoo">
 						<label for="interest1">tattooing</label>
 									
-                        <input type="checkbox" id="interest2" name="interest2" value="illustrative" required />
+                        <input type="checkbox" id="interest2" name="interest2" value="illustrative">
 						<label for="interest2">illustrative</label>
 					</div>
 <!-- The chosen placeholder prompts the user with helpful information to begin a consultative conversation. -->
 					<div class="form-group col-12">
-						<textarea name="message" placeholder="please tell me a bit about your idea, the project's size, and your timeline for this piece."></textarea>
-								</div>
+						<textarea name="message" id="message" placeholder="please tell me a bit about your idea, the project's size, and your timeline for this piece." required ></textarea>
+					</div>
+                    <div class="row justify-content-center">
 <!-- Simple submit button matches remainder of site's layout. -->
-								<button type="button" class="btn btn-submit btn-outline-dark btn-sm col-2">send</button>
+					<button type="submit" class="btn btn-submit btn-outline-dark btn-sm col-10">send</button>
+                    </div>
 				</fieldset>
 
 			</form>
