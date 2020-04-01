@@ -130,6 +130,23 @@ footer {
 
 /* Extra small devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap */
+@media (max-width: 425px) {
+        
+    #index-carousel {
+        margin-top: 7.5rem;
+        margin-bottom: 6rem;
+    }
+
+    #nav{
+        background-color: #fff;
+        padding-bottom: 1em;
+    }
+
+    #portfolio {
+        margin-top: 7.5rem;
+        margin-bottom: 6rem;
+    }
+}
 
 /* SM all devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { ... }
