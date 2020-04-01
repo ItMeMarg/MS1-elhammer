@@ -120,9 +120,9 @@ footer {
     border-bottom: 5px solid #fff;
     border-left: 15px solid #fff;
     border-right: 15px solid #fff;
-     position: static;
-     background-color: #fff;
-     bottom-margin: 0;
+    position: static;
+    background-color: #fff;
+    bottom-margin: 0;
 }
 
 /*----------------------------Media Queries */
