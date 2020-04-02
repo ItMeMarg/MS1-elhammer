@@ -62,11 +62,11 @@ a:hover {
 
 /*-------------------------------About */
 
-
-
 .card {
     width: 18rem;
     border-style: none;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
 }
 
 #about {
