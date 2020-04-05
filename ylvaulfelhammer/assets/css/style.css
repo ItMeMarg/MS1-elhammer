@@ -91,7 +91,7 @@ legend {
 
 textarea {
     width: 90%;
-    height: 150px;
+    height: 75px;
 }
 
 #contact-form {
@@ -99,6 +99,7 @@ textarea {
     margin-bottom: 5rem;
 }
 
+textarea,
 #name,
 #email {
     border-style: none;
