@@ -69,10 +69,13 @@ a:hover {
     border-top-right-radius: calc(.25rem - 1px);
 }
 
+
+
 #about {
     margin-top: 8rem;
     margin-bottom: 6rem;
 }
+
 
 #elhammer-picture {
     max-height: 400px;
