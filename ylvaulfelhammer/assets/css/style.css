@@ -69,13 +69,10 @@ a:hover {
     border-top-right-radius: calc(.25rem - 1px);
 }
 
-
-
 #about {
     margin-top: 8rem;
     margin-bottom: 6rem;
 }
-
 
 #elhammer-picture {
     max-height: 400px;
@@ -102,10 +99,10 @@ textarea {
     margin-bottom: 5rem;
 }
 
-#fname,
-#lname,
+#name,
 #email {
     border-style: none;
+    border-bottom: .5px solid #000 !important;
 }
 
 /*-------------------------------Portfolio */
