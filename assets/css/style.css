@@ -46,8 +46,7 @@ a:hover {
 /*-------------------------------Index */
 
 .carousel-inner {
-    padding-right: 1em;
-    padding-left: 1em;
+    padding: 0 1em;
 }
 
 .carousel-item {
@@ -60,8 +59,7 @@ a:hover {
 }
 
 #index-carousel {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin: 6rem 0;
 }
 /*-------------------------------About */
 
@@ -78,28 +76,27 @@ a:hover {
 }
 
 #elhammer-picture {
-    max-height: 400px;
-    max-width: 450px;
+    max-height: 425px;
+    max-width: 425px;
 }
 
 /*-------------------------------Contact form */
-
-fieldset {
-    margin-top: 5rem;
-}
-
-legend {
-    text-align: center;
-}
 
 textarea {
     width: 90%;
     height: 75px;
 }
 
+#contact-container {
+    margin: 8rem 0;
+}
+
+#contact-text {
+    margin-top: 1rem;
+}
+
 #contact-form {
-    margin-top: 3rem;
-    margin-bottom: 5rem;
+    max-width: 330px;
 }
 
 textarea,
@@ -119,7 +116,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 450px;
+  max-width: 425px;
   position: relative;
   margin: auto;
 }
@@ -196,7 +193,12 @@ No media query since this is the default in Bootstrap */
     }
 
     #index-carousel {
-        margin-top: 7.5rem 0 6rem 0;
+        margin: 7.5rem 0 6rem 0;
+    }
+
+    #contact-container {
+        margin: 8rem 0 6rem 0;
+        
     }
 
     #nav{
@@ -209,7 +211,13 @@ No media query since this is the default in Bootstrap */
 @media (min-width: 576px) { ... }
 
 /* MD devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
+@media (max-width: 768px) { 
+        #contact-container {
+        
+    }
+
+
+ }
 
 /* LG devices (desktops, 992px and up) */
 @media (min-width: 992px) { ... }

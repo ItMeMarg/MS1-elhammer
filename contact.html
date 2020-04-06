@@ -32,33 +32,35 @@
             </div>
         </nav>
     </header>
-    <section class="container-fluid" id="contact-form"> 
-    <div class="row justify-content-center">
-			<form action=" " method="POST">
-<!-- Dropped off some of the inputs seen on the wireframe to simplify the form. #fname autofocuses to bring user attention to completing the form. -->
-				<fieldset>
-					<legend><h2>get in touch</h2></legend>
+
+    <section class="container-fluid" id="contact-container"> 
+        <div class="row justify-content-md-center">
+            <div class="col-md-3" id="contact-text">
+                <h2>get in touch</h2>
+            </div>
+
+            <div class="col-md-auto" id="contact-form">
+    			<form action=" " method="POST">
                     <div class="form-group col">
 						<label class="sr-only" for="name" >Name</label><input type="text" id="name" name="name" placeholder="your name" autofocus required />
 						<label class="sr-only" for="email">Email</label><input type="email" id="email" name="email" placeholder="your email" required />
                     </div>
 
 					<div class="form-group col">
-						<label for="checkbox">which medium would you like to discuss?</label></br>
-<!-- Check boxes were chosen to add awareness that the artist does both tattoo and illustrative work. This also will help the artist field contacts. -->
+						<label for="checkbox">which medium would you like to discuss?</label><br>
 						<input type="checkbox" id="interest1" name="interest1" value="tattoo"><label for="interest1">tattooing</label>
                         <input type="checkbox" id="interest2" name="interest2" value="illustrative"><label for="interest2">illustrative</label>
 					</div>
-<!-- The chosen placeholder prompts the user with helpful information to begin a consultative conversation. -->
+
 					<div class="form-group col">
 						<textarea name="message" id="message" placeholder="please tell me a bit about your idea, the project's size, and your timeline for this piece." required ></textarea>
 					</div>
+
                     <div class="row justify-content-center">
-<!-- Simple submit button matches remainder of site's layout. -->
 					<button type="submit" class="btn btn-submit btn-outline-dark btn-sm col-10">send</button>
                     </div>
-				</fieldset>
-			</form>
+			    </form>
+            </div>
         </div>
 	</section>
 <!-- Three centered icons fixed on the bottom of the page to make contacting as easy as possible. Placement and columns maintain consistency between screen sizes. -->
