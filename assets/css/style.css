@@ -55,6 +55,10 @@ a:hover {
     height: fit-content;
 }
 
+#index-text {
+    margin-top: 2rem;
+}
+
 #index-carousel {
     margin-top: 6rem;
     margin-bottom: 6rem;
@@ -107,13 +111,14 @@ textarea,
 
 /*-------------------------------Portfolio */
 
+
+
 #portfolio {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+   
 }
 
 #portfolio-images {
-    padding: .5em.;
+   
 }
 
 /*-------------------------------Footer */
@@ -138,10 +143,13 @@ footer {
 /* Extra small devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap */
 @media (max-width: 425px) {
-        
+
+    #index-text {
+        margin: 2rem 0 1rem 0;
+    }
+
     #index-carousel {
-        margin-top: 7.5rem;
-        margin-bottom: 6rem;
+        margin-top: 7.5rem 0 6rem 0;
     }
 
     #nav{
