@@ -32,50 +32,40 @@
             </div>
         </nav>
     </header>
-	<section id="portfolio">
+<section>
 <!-- Used Bootstrap #container-fluid for consistency across pages and layout responsiveness across devices/browser sizes. DIV #portfolio-container allows for easier gallery image positioning, specifically margins/paddings/borders. The portfolio looks clean with one single column on smaller screens and two columns on larger screens. -->
-<div class="container-fluid" id="index-carousel">
+       <div class="container-fluid" id="portfolio">
             <div class="row justify-content-md-center">
+                <div class="col-md-3"><h2>tattoos</h2></div>
+                <div class="col-md-auto content-align-center">
+                    <div class="slideshow-container">
+                        <div class="mySlides1"><img src="assets/images/tattooditchflower.png" style="width:100%"></div>
 
-                
+                        <div class="mySlides1"><img src="assets/images/tattoodagger.png" style="width:100%"></div>
 
-                <div class="col-12 col-md-5">
-                    <div id="carouselExampleControls" class="carousel " data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        </ol>
+                        <div class="mySlides1"><img src="assets/images/tattoohammer.png" style="width:100%"></div>
 
-                        <div class="carousel-inner">
-                            <div class="carousel-item active"><img src="assets/images/flashtattoosheet3.png" class="d-block w-100" alt="tattoo flash sheet"></div>
-                            <div class="carousel-item"><img src="assets/images/illustrativerooster.png" class="d-block w-100" alt="vivdly-colored illustration of a rooster"></div>
-                            <div class="carousel-item"><img src="assets/images/tattooyak.png" class="d-block w-100" alt="tattoo with upper arm placement of a black outlined yak with wheat germ frame"></div>                        
-                        </div>
+                        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
                     </div>
-
                 </div>
- <div class="col-12 col-md-5">
-                    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        </ol>
+            </div>       
+            <div class="row justify-content-md-center">
+                <div class="col-md-3"><h2>illustrations</h2></div>
+                <div class="col-md-auto content-align-center">
+                    <div class="slideshow-container">
+                        <div class="mySlides2"><img src="assets/images/flashtattoosheet1.png" style="width:100%"></div>
 
-                        <div class="carousel-inner">
-                            <div class="carousel-item active"><img src="assets/images/flashtattoosheet3.png" class="d-block w-100" alt="tattoo flash sheet"></div>
-                            <div class="carousel-item"><img src="assets/images/illustrativerooster.png" class="d-block w-100" alt="vivdly-colored illustration of a rooster"></div>
-                            <div class="carousel-item"><img src="assets/images/tattooyak.png" class="d-block w-100" alt="tattoo with upper arm placement of a black outlined yak with wheat germ frame"></div>                        
-                        </div>
+                        <div class="mySlides2"><img src="assets/images/flashtattoosheet2.png" style="width:100%"></div>
+
+                        <div class="mySlides2"><img src="assets/images/flashtattoosheet2.png" style="width:100%"></div>
+
+                        <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
                     </div>
-
                 </div>
-         
             </div>
-            
         </div>
-
 
 
 <!--         <div class="container-fluid" id="portfolio-container">
@@ -126,6 +116,28 @@ illustrative images
 			<li><a href="contact.html" target="_blank" class="col-4 justify-content-around align-items-center"><i class="fas fa-envelope"></i></a></li>
 		</ol>
 	</footer>
+    <script>
+var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
 <!-- JS from Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
