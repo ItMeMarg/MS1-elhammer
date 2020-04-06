@@ -74,7 +74,7 @@ a:hover {
 }
 
 #about-text {
-    text-align: center;
+    margin-top: 1.25rem;
 }
 
 #elhammer-picture {
@@ -224,9 +224,15 @@ No media query since this is the default in Bootstrap */
             max-width: 425px;
             padding: 1em 0;
         }
-        
-
 }
+@media (max-width: 768px) { 
+        .portfolio-text,
+        #index-text,
+        #about-text,
+        #contact-text {
+            text-align: center;
+        }
+    
 
 /* LG devices (desktops, 992px and up) */
 @media (min-width: 992px) { ... }
