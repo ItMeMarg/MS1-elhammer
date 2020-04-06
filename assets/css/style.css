@@ -64,10 +64,8 @@ a:hover {
 /*-------------------------------About */
 
 .card {
-    width: 18rem;
     border-style: none;
-    border-top-left-radius: calc(.25rem - 1px);
-    border-top-right-radius: calc(.25rem - 1px);
+    align-items: center;
 }
 
 #about {
@@ -75,9 +73,18 @@ a:hover {
     margin-bottom: 6rem;
 }
 
+#about-text {
+    text-align: center;
+}
+
 #elhammer-picture {
     max-height: 425px;
     max-width: 425px;
+}
+
+.card-body {
+    max-width: 425px;
+    padding: 1em 0;
 }
 
 /*-------------------------------Contact form */
@@ -211,13 +218,14 @@ No media query since this is the default in Bootstrap */
 @media (min-width: 576px) { ... }
 
 /* MD devices (tablets, 768px and up) */
-@media (max-width: 768px) { 
-        #contact-container {
+@media (min-width: 768px) { 
+        .card-body {
+            max-width: 425px;
+            padding: 1em 0;
+        }
         
-    }
 
-
- }
+}
 
 /* LG devices (desktops, 992px and up) */
 @media (min-width: 992px) { ... }
