@@ -158,6 +158,10 @@ img {vertical-align: middle;}
     margin-bottom: 2rem;
 }
 
+.portfolio-text {
+    margin-top: 2rem;
+}
+
 #portfolio {
     margin: 6rem auto;
 }
@@ -175,7 +179,6 @@ footer {
     border-right: 15px solid #fff;
     position: static;
     background-color: #fff;
-    bottom-margin: 0;
 }
 
 /*----------------------------Media Queries */
@@ -184,6 +187,10 @@ footer {
 /* Extra small devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap */
 @media (max-width: 425px) {
+    .portfolio-text {
+        margin: 2rem 0 1rem 0;
+    }
+    
     #index-text {
         margin: 2rem 0 1rem 0;
     }
