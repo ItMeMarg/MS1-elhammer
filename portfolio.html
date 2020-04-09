@@ -14,60 +14,53 @@
 	<title>Ylva/Ulf Elhammer</title>
 </head>
 <body>
-    <header>
+<header>
 <!-- Nav items are fixed to the screen's top to minimize clicks needed to access content. -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <div class="container-fluid" id="nav">
-                <a class="navbar-brand" href="index.html"><h1>ylva/ulf elhammer</h1></a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid" id="nav">
+        <a class="navbar-brand" href="index.html"><h1>ylva/ulf elhammer</h1></a>
 <!-- Nav bar collapses on smaller screens to reduce interference with users' content interaction. -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse container" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto justify-content-around">
-                        <li class="nav-item col-3"><a class="nav-link" href="index.html">home</a></li>
-                        <li class="nav-item col-3"><a class="nav-link" href="about.html">about</a></li>
-                        <li class="nav-item col-3"><a class="nav-link" href="contact.html">contact</a></li>
-                        <li class="nav-item col-3 active"><a class="nav-link" href="portfolio.html">portfolio</a></li>
-                    </ul>        
-                </div>  
-            </div>
-        </nav>
-    </header>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse container" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto justify-content-around">
+				<li class="nav-item col-3 active"><a class="nav-link" href="index.html">home</a></li>
+				<li class="nav-item col-3"><a class="nav-link" href="about.html">about</a></li>
+				<li class="nav-item col-3"><a class="nav-link" href="contact.html">contact</a></li>
+                <li class="nav-item col-3 active"><a class="nav-link" href="portfolio.html">portfolio</a></li>
+            </ul>        
+        </div> 
+    </div>
+</nav>
+</header>
 <section>
 <!-- Used Bootstrap #container-fluid for consistency across pages and layout responsiveness across devices/browser sizes. -->
-       <div class="container-fluid" id="portfolio">
-            <div class="row justify-content-md-center">
-                <div class="col-md-3 portfolio-text"><h2>tattoos</h2></div>
-                <div class="col-md-auto content-align-center">
-                    <div class="slideshow-container">
-                        <div class="mySlides1"><img src="assets/images/tattooditchflower.png" style="width:100%"></div>
-
-                        <div class="mySlides1"><img src="assets/images/tattoodagger.png" style="width:100%"></div>
-
-                        <div class="mySlides1"><img src="assets/images/tattoohammer.png" style="width:100%"></div>
-
+    <div class="container-fluid" id="portfolio">
+        <div class="row justify-content-md-center">
+            <div class="col-md-3 portfolio-text"><h2>tattoos</h2></div>
+            <div class="col-md-auto content-align-center">
+                <div class="slideshow-container">
+                    <div class="mySlides1"><img src="assets/images/tattooditchflower.png" style="width:100%"></div>
+                    <div class="mySlides1"><img src="assets/images/tattoodagger.png" style="width:100%"></div>
+                    <div class="mySlides1"><img src="assets/images/tattoohammer.png" style="width:100%"></div>
                         <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
                         <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-                    </div>
                 </div>
-            </div>       
-            <div class="row justify-content-md-center">
-                <div class="col-md-3 portfolio-text"><h2>illustrations</h2></div>
-                <div class="col-md-auto content-align-center">
-                    <div class="slideshow-container">
-                        <div class="mySlides2"><img src="assets/images/flashtattoosheet1.png" style="width:100%"></div>
-
-                        <div class="mySlides2"><img src="assets/images/flashtattoosheet2.png" style="width:100%"></div>
-
-                        <div class="mySlides2"><img src="assets/images/flashtattoosheet2.png" style="width:100%"></div>
-
+            </div>
+        </div>       
+        <div class="row justify-content-md-center">
+            <div class="col-md-3 portfolio-text"><h2>illustrations</h2></div>
+            <div class="col-md-auto content-align-center">
+                <div class="slideshow-container">
+                    <div class="mySlides2"><img src="assets/images/flashtattoosheet1.png" style="width:100%"></div>
+                    <div class="mySlides2"><img src="assets/images/flashtattoosheet2.png" style="width:100%"></div>
+                    <div class="mySlides2"><img src="assets/images/flashtattoosheet2.png" style="width:100%"></div>
                         <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
                         <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
-                    </div>
                 </div>
             </div>
         </div>
-
-
+    </div>
+</section>
 <!--         <div class="container-fluid" id="portfolio-container">
 tattoo images
         <div class="row justify-content-around">
@@ -107,16 +100,15 @@ illustrative images
             <img id="portfolio-images" alt="vivdly-colored illustration of a rooster" src="assets/images/illustrativerooster.png">
         </div>
     </div>-->
-	</section>
 <!-- Three centered icons fixed on the bottom of the page to make contacting as easy as possible.Placement and columns maintain consistency between screen sizes. -->
-	<footer class="container-fluid bg-white fixed-bottom">
-		<ol class="row justify-content-center list-unstyled list-group-horizontal">
-			<li><a href="https://www.instagram.com/ylva.tattoo/" target="_blank" class="col-4 justify-content-around align-items-center"><i class="fab fa-instagram"></i></a></li>
-			<li><a href="https://www.pinterest.com/yelvismanhammer/" target="_blank" class="col-4 justify-content-around align-items-center"><i class="fab fa-pinterest-square"></i></a></li>
-			<li><a href="contact.html" target="_blank" class="col-4 justify-content-around align-items-center"><i class="fas fa-envelope"></i></a></li>
-		</ol>
-	</footer>
-    <script>
+<footer class="container-fluid bg-white fixed-bottom">
+	<ol class="row justify-content-center list-unstyled list-group-horizontal">
+		<li><a href="https://www.instagram.com/ylva.tattoo/" target="_blank" class="col-4 justify-content-around align-items-center"><i class="fab fa-instagram"></i></a></li>
+		<li><a href="https://www.pinterest.com/yelvismanhammer/" target="_blank" class="col-4 justify-content-around align-items-center"><i class="fab fa-pinterest-square"></i></a></li>
+		<li><a href="contact.html" target="_blank" class="col-4 justify-content-around align-items-center"><i class="fas fa-envelope"></i></a></li>
+	</ol>
+</footer>
+<script>
 var slideIndex = [1,1];
 var slideId = ["mySlides1", "mySlides2"]
 showSlides(1, 0);
@@ -137,7 +129,6 @@ function showSlides(n, no) {
   x[slideIndex[no]-1].style.display = "block";  
 }
 </script>
-
 <!-- JS from Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
