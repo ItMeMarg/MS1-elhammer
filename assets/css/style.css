@@ -44,17 +44,16 @@ a:hover {
 }
 
 /*-------------------------------Index */
-.fa-angle-left:hover,
-.fa-angle-right:hover {
-    color: #fff;
-    background-color: #000;
+
+.fa-chevron-left,
+.fa-chevron-right {
+    color: #000;
+    background-color: #fff;  
+    border: 15px solid #fff; 
 }
 
-.fa-angle-left,
-.fa-angle-right {
-    background-color: #fff;
-    color: #000;  
-  
+.carousel {
+    transition-timing-function: ease-in-out;
 }
 
 .carousel-inner {
