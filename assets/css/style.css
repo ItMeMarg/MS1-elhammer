@@ -44,6 +44,18 @@ a:hover {
 }
 
 /*-------------------------------Index */
+.fa-angle-left:hover,
+.fa-angle-right:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.fa-angle-left,
+.fa-angle-right {
+    background-color: #fff;
+    color: #000;  
+  
+}
 
 .carousel-inner {
     padding: 0 1em;
@@ -121,18 +133,21 @@ textarea,
 }
 
 .portfolio-images {
-
+    width: 425px;
+    height: 425px;
 }
 
 #portfolio-box {
     border: none;
+    margin: 1 rem;
     width: 425px;
     height: 425px;
     display: flex;
     overflow: scroll;
     flex-direction: row;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
 }
-
 
 #portfolio {
     margin: 6rem auto;
