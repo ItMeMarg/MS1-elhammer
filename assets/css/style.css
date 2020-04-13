@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cardo&family=Josefin+Sans:wght@300;600&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
     border: 0;
 }
-
-/*-------------------------------Navigation */
-
+/*--------------------------------------Navigation */
 .navbar {
     padding: 0;
     border-top: 10px solid #fff;
@@ -23,9 +20,7 @@
 #nav{
     background-color: #fff;
 }
-
-/*-------------------------------Fonts */
-
+/*-------------------------------------------Fonts */
 header,
 body {
     font-family: 'Josefin Sans', sans-serif;
@@ -35,9 +30,7 @@ body {
 h3 {
     color: #4F4F4F;
 }
-
-/*-------------------------------Links */
-
+/*--------------------------------------------Links */
 a {
     color: black;
 }
@@ -46,9 +39,7 @@ a:hover {
     color: #666;
     text-decoration: none;
 }
-
-/*-------------------------------Index */
-
+/*----------------------------------------------Index */
 .fa-chevron-left,
 .fa-chevron-right {
     color: #000;
@@ -76,8 +67,7 @@ a:hover {
 #index-carousel {
     margin: 6rem 0;
 }
-/*-------------------------------About */
-
+/*------------------------------------------------About */
 .card {
     border-style: none;
     align-items: center;
@@ -101,12 +91,15 @@ a:hover {
     max-width: 425px;
     padding: 1em 0;
 }
-
-/*-------------------------------Contact form */
-
+/*----------------------------------------------Contact form */
 textarea {
     width: 90%;
     height: 75px;
+}
+
+.form-group,
+#contact-btn {
+    padding: .5em;
 }
 
 #contact-container {
@@ -121,43 +114,40 @@ textarea {
     max-width: 330px;
 }
 
+#interest1,
+#interest2 {
+    margin: 1rem;
+}
+
 textarea,
 #name,
 #email {
     border-style: none;
     border-bottom: .5px solid #000 !important;
 }
-
-/*-------------------------------Portfolio */
-
-.portfolio-text {
+/*-------------------------------------------------Portfolio */
+#portfolio-text {
     margin-top: 2rem;
-    text-align: center;
-}
-
-.portfolio-images {
-    width: 425px;
-    height: 425px;
-}
-
-#portfolio-box {
-    border: none;
-    margin: 1 rem;
-    width: 425px;
-    height: 425px;
-    display: flex;
-    overflow: scroll;
-    flex-direction: row;
-    scroll-behavior: smooth;
-    overflow-y: hidden;
 }
 
 #portfolio {
     margin: 6rem auto;
 }
 
-/*-------------------------------Footer */
+.portfolio-img {
+   max-width: 100px;
+   max-height: 100px;
+   margin: .25rem;
+   padding: 0;
+   border: 0;
+}
 
+#portfolio-box {
+    max-width: 650px;
+    max-height: 650px;
+    overflow: auto;
+}
+/*-------------------------------Footer */
 i {
     font-size: 2rem;
 }
@@ -170,57 +160,43 @@ footer {
     position: static;
     background-color: #fff;
 }
-
 /*----------------------------Media Queries */
-
-
-/* Extra small devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap */
 @media (max-width: 425px) {
-    .portfolio-text {
-        margin: 2rem 0 1rem 0;
-    }
-    
+    #portfolio-text,
     #index-text {
         margin: 2rem 0 1rem 0;
     }
-
     #index-carousel {
         margin: 7.5rem 0 6rem 0;
     }
-
     #contact-container {
         margin: 8rem 0 6rem 0;
-        
     }
-
     #nav{
         background-color: #fff;
         padding-bottom: 1em;
     }
 }
-
-/* SM all devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { ... }
-
-/* MD devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
         .card-body {
             max-width: 425px;
             padding: 1em 0;
         }
 }
 @media (max-width: 768px) { 
-        .portfolio-text,
+        h2, 
+        h3 {
+            text-align: center;
+        }
+        #portfolio-box,
+        #portfolio {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #portfolio-text,
         #index-text,
         #about-text,
         #contact-text {
             text-align: center;
         }
-    
-
-/* LG devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
-
-/* XL devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+}
