@@ -88,6 +88,11 @@ a:hover {
     padding: 1em 0;
 }
 
+p a { 
+    text-decoration: underline; 
+    text-decoration-color: #c93260; 
+}
+
 #about {
     margin-top: 8rem;
     margin-bottom: 6rem;
