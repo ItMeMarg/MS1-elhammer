@@ -22,7 +22,7 @@ When choosing a font, we wanted to honor Elhammer’s Swedish heritage. We found
 ###  Existing Features
 
 *  Carousel showing select pieces from Elhammer’s portfolio - brings in users’ attention immediately when landing on the site and allows them to see some of Elhammer’s work.
-*  Contact form - the chosen questions/inputs are minimal enough to keep the user’s attention and make it simple to complete and send the form.
+*  Contact form - the chosen questions/inputs are minimal enough to keep the user’s attention and make it simple to complete and send the form. This form is **not** yet active.
 *  Portfolio gallery - allows users to initially see an overview of Elhammer’s work as smaller thumbnails. When selected, images enlarge in a modal. 
 *  Fixed navigation bar and footer - offers quick navigation to other pages or Elhammer’s social media accounts.
 *  Envelope icon on footer - brings the user to the contact page, allowing them the option to reach out at any point of their visit. 
@@ -32,6 +32,7 @@ When choosing a font, we wanted to honor Elhammer’s Swedish heritage. We found
 ###  Features Left to Implement
 *  Further editing of Portfolio gallery modal, particularily sizing; this requires more knowledge of JavaScript, which I have not yet acquired. :)
 *  Separate contact pages for illustration and tattoo appointments with more detailed contact forms, as well as portfolio pages with more images.
+*  The contact form will be developed in the future, as I gain those skills. 
 
 ##  Technologies Used
 
@@ -50,8 +51,9 @@ When choosing a font, we wanted to honor Elhammer’s Swedish heritage. We found
 This project was consistantly checked with Google Chrome Development Tools while during development. As the project wrapped up, it was checked on Safari browser both on Mac and iPhone. 
 
 Two bugs that persist in this project:
-*  Carousel on Index - a little "jump" happens on smaller screens. This bug [was supposed to have been fixed](https://github.com/twbs/bootstrap/issues/22420) in the latest Bootstrap update (4.4.4). Updating this project's Bootstrap stylesheets led to further bugs. With more time, this will be addressed. 
+*  Carousel on Index - a little "jump" happens on smaller screens. This bug [was supposed to have been fixed](https://github.com/twbs/bootstrap/issues/22420) in the latest Bootstrap update (4.4.4). Updating this project's Bootstrap stylesheets led to further bugs.  
 *  Portfolio modal image size - when selected, images enlarge to a size and a position that is not good UX. With further JavaScript knowledge, this will be properly addressed to have a more centered and smaller pop-up. 
+* Portfolio page footer and nav sizes smaller than other pages - after adding the modal and JavaScript script, the aforementioned elements shrunk in size. To fix this I tried changing the size to % rather than rem, but it was not successful. This bug will be addressed in the future. 
 
 ##  Deployment
 This project was created on and can be run on GitHub Pages. 

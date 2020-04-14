@@ -48,7 +48,7 @@
         </div>        
 <!-- Contact form------------------------------------------------------------------------------------------------------------------------------------>
         <div class="col-md-auto" id="contact-form">
-            <form action=" " method="POST">
+            <form action=" " method=" ">
 <!-- Name-------------------------------------------------------------------------------------------------------------------------------------------->
                 <div class="form-group col">
 					<label class="sr-only" for="name" >Name</label><input type="text" id="name" name="name" placeholder="your name" autofocus required />
@@ -67,9 +67,10 @@
 				<div class="form-group col">
 					<textarea name="message" id="message" placeholder="please tell me a bit about your idea, the project's size, and your timeline for this piece." required ></textarea>
 				</div>
-<!-- Send button------------------------------------------------------------------------------------------------------------------------------------->
+<!-- Send button, popup alert from https://www.w3schools.com/js/js_popup.asp This will be removed once form is active ------------------------------->
                     <div class="row justify-content-center">
-                        <button type="submit" id="contact-btn" class="btn btn-submit btn-outline-dark btn-sm col-10">send</button>
+                        <button type="submit" id="contact-btn" class="btn btn-submit btn-outline-dark btn-sm col-10" onclick="alert('This function is currently under construction. Please reach me on Instagram.')">send</button>
+                        
                     </div>
 		    </form>
         </div>
