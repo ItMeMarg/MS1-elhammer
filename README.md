@@ -1,11 +1,16 @@
 #  Ylva/Ulf Elhammer - Tattoo Apprentice Portfolio 
 
 This project is a portfolio website for Seattle-based non-binary tattoo apprentice Ylva/Ulf Elhammer. Their mentor is [Jude Le Tronik](https://judeletronik.com), a well-known Queer tattoo artist and the owner of [Lilith Tattoo](https://lilithtattooseattle.com). All artists at Lilith have a personal website linked from the studio’s [Artists page](https://lilithtattooseattle.com/artists)—except Elhammer! This website will help grow both awareness of and interest in their work, as well as allow perspective clients to connect with them.
+
+## Demo 
+
+View the live site [here](https://itmemarg.github.io/MS1-elhammer/).
  
 ##  UX
 
-As a potential client interested in supporting a QTPOC-owned tattoo studio, I want to learn more about Elhammer’s identity and work. I want to see both a biography and a gallery of their work to decide if I am interested in working with them.
-As a potential client interested in working with Elhammer, I want to be able to contact them to set up an appointment/commission a piece of art.
+*  As a potential client interested in supporting a QTPOC-owned tattoo studio, I want to learn more about Elhammer’s identity and work. I want to see both a biography and a gallery of their work to decide if I am interested in working with them.
+
+*  As a potential client interested in working with Elhammer, I want to be able to contact them to set up an appointment/commission a piece of art.
 
 This website was designed to complement the design and overall “feel” of [Lilith Tattoo’s website](https://lilithtattooseattle.com). To accomplish this, we committed to a black/grey color scheme with maximum white space. Initial [wireframes](../wireframes/milestone1.pdf) do not include features we added for better UX.
 
@@ -31,7 +36,7 @@ When choosing a font, we wanted to honor Elhammer’s Swedish heritage. We found
 ##  Technologies Used
 
 ### Framework
-1.  [Bootstrap 4](https://getbootstrap.com)
+1.  [Bootstrap 4.0.0](https://getbootstrap.com)
 2.  HTML5	
 3.  CSS
 4.  [W3.CSS/JavaScript](https://www.w3schools.com/w3css)

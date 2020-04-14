@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Meta tags--------------------------------------------------------------------------------------------------------------------------------------->
+<!-- Meta tags-------------------------------------------------------------------------------------------------------------------------------------->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!-- W3.CSS JS--------------------------------------------------------------------------------------------------------------------------------------->
+<!-- W3.CSS JS-------------------------------------------------------------------------------------------------------------------------------------->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<!-- Bootstrap 4 CSS--------------------------------------------------------------------------------------------------------------------------------->
+<!-- Bootstrap 4.0.0-------------------------------------------------------------------------------------------------------------------------------->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<!-- FontAwesome------------------------------------------------------------------------------------------------------------------------------------->
+<!-- FontAwesome------------------------------------------------------------------------------------------------------------------------------------>
 	<script src="https://kit.fontawesome.com/00eef04c2f.js" crossorigin="anonymous"></script>
-<!-- External CSS------------------------------------------------------------------------------------------------------------------------------------>
+<!-- External CSS----------------------------------------------------------------------------------------------------------------------------------->
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-<!-- Title------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- Title------------------------------------------------------------------------------------------------------------------------------------------>
 	<title>Ylva/Ulf Elhammer</title>
 </head>
 <body>
 <header>
-<!-- Navigation is fixed to the top to minimize clicks----------------------------------------------------------------------------------------------->
+<!-- Begin navigation, fixed to the top to minimize clicks------------------------------------------------------------------------------------------->
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid" id="nav">
-<!-- Title reflected for SEO------------------------------------------------------------------------------------------------------------------------->
+<!-- Title repeated for SEO-------------------------------------------------------------------------------------------------------------------------->
         <a class="navbar-brand" href="index.html"><h1>ylva/ulf elhammer</h1></a>
 <!-- Nav bar collapses on smaller screens to reduce interference with content------------------------------------------------------------------------>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"><span class="navbar-toggler-icon"></span></button>
@@ -36,16 +36,17 @@
 		</div>
 	</div>
 </nav>
+<!-- End navigation---------------------------------------------------------------------------------------------------------------------------------->
 </header>
-<!-- Begin Portfolio page content-------------------------------------------------------------------------------------------------------------------->
+<!-- Begin portfolio--------------------------------------------------------------------------------------------------------------------------------->
 <section class="container-fluid" id="portfolio">
     <div class="row justify-content-center">
-<!-- Page heading, subheading------------------------------------------------------------------------------------------------------------------------>
+<!-- Page heading, subheading to briefly explain page content---------------------------------------------------------------------------------------->
         <div class="col-md-3" id="portfolio-text">
             <h2>portfolio</h2>
             <h3>tattoos & illustrations</h3>
         </div>
-<!-- Gallery----------------------------------------------------------------------------------------------------------------------------------------->
+<!-- Gallery with thumbnail images to give quick view of all work------------------------------------------------------------------------------------->
         <div id="portfolio-box" class="row justify-content-center">
             <img onclick="onClick(this)" class="w3-hover-opacity col-6 col-md-2 portfolio-img" alt="tattoo with calf placement of black-lined, shaded small house on stilts" src="assets/images/tattoohouse.png">
             <img onclick="onClick(this)" class="w3-hover-opacity col-6 col-md-2 portfolio-img" alt="tattoo flash sheet" src="assets/images/flashtattoosheet5.png">  
@@ -77,17 +78,14 @@
             <img onclick="onClick(this)" class="w3-hover-opacity col-6 col-md-2 portfolio-img" alt="painted sad clown" src="assets/images/illustrativesadclown.png">
             <img onclick="onClick(this)" class="w3-hover-opacity col-6 col-md-2 portfolio-img" alt="tattoo with upper arm placement of a black outlined yak with wheat germ frame" src="assets/images/tattooyak.png">
             <img onclick="onClick(this)" class="w3-hover-opacity col-6 col-md-2 portfolio-img" alt="pages from a sketchbook, one page with a cat and another with a portrait" src="assets/images/illustrativescenes.png"> 
-<!-- Modal code from https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal_gallery ------------------------------------------------------>
-                <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
-                    <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
-                    <div class="w3-modal-content w3-animate-zoom"><img id="img01" style="width:100%"></div>
-                </div> 
-<!-- End modal code from W3--------------------------------------------------------------------------------------------------------------------------->
+<!-- Modal allowing users to look more closely at work, code from https://www.w3schools.com/w3css/w3css_modal.asp ----------------------------------->
+                <div id="modal01" class="w3-modal" onclick="this.style.display='none'"><span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span><div class="w3-modal-content w3-animate-zoom"><img id="img01" style="width:100%"></div></div> 
+<!-- End modal code from W3-------------------------------------------------------------------------------------------------------------------------->
         </div>   
     </div>
 </section>
-<!-- End Portfolio page content----------------------------------------------------------------------------------------------------------------------->
-<!-- Footer with three  centered icons fixed on the bottom of the page make contact as easy as possible----------------------------------------------->
+<!-- End portfolio----------------------------------------------------------------------------------------------------------------------------------->
+<!-- Begin footer with three centered icons fixed to make contact as easy as possible---------------------------------------------------------------->
 <footer class="container-fluid bg-white fixed-bottom">
 	<ol class="row justify-content-center list-unstyled list-group-horizontal">
 		<li><a href="https://www.instagram.com/ylva.tattoo/" target="_blank" class="col-4 justify-content-around align-items-center"><i class="fab fa-instagram"></i></a></li>
@@ -95,9 +93,10 @@
 		<li><a href="contact.html" target="_blank" class="col-4 justify-content-around align-items-center"><i class="fas fa-envelope"></i></a></li>
 	</ol>
 </footer>
+<!-- End footer--------------------------------------------------------------------------------------------------------------------------------------->
 <!-- JS from W3.CSS for Gallery modal----------------------------------------------------------------------------------------------------------------->
 <script>function onClick(element) {document.getElementById("img01").src = element.src;document.getElementById("modal01").style.display = "block";}</script>
-<!-- JS from Bootstrap--------------------------------------------------------------------------------------------------------------------------------->
+<!-- JS from Bootstrap-------------------------------------------------------------------------------------------------------------------------------->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
