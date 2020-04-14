@@ -55,6 +55,8 @@ This project was created on and can be run on GitHub Pages.
 
 ### Content
 
+All textual content was written by me.
+
 ###  Media
 
 All media used in this site was obtained from Elhammer’s [personal Instagram account](https://www.instagram.com/yelvis/) and [tattoo Instagram account](https://www.instagram.com/ylva.tattoo).

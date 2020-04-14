@@ -5,7 +5,9 @@
     padding: 0;
     border: 0;
 }
+
 /*--------------------------------------Navigation */
+
 .navbar {
     padding: 0;
     border-top: 10px solid #fff;
@@ -20,7 +22,9 @@
 #nav{
     background-color: #fff;
 }
+
 /*-------------------------------------------Fonts */
+
 header,
 body {
     font-family: 'Josefin Sans', sans-serif;
@@ -30,16 +34,20 @@ body {
 h3 {
     color: #4F4F4F;
 }
+
 /*--------------------------------------------Links */
+
 a {
-    color: black;
+    color: #4F4F4F;
 }
 
 a:hover {
     color: #666;
     text-decoration: none;
 }
+
 /*----------------------------------------------Index */
+
 .fa-chevron-left,
 .fa-chevron-right {
     color: #000;
@@ -67,10 +75,17 @@ a:hover {
 #index-carousel {
     margin: 6rem 0;
 }
+
 /*------------------------------------------------About */
+
 .card {
     border-style: none;
     align-items: center;
+}
+
+.card-body {
+    max-width: 425px;
+    padding: 1em 0;
 }
 
 #about {
@@ -87,14 +102,18 @@ a:hover {
     max-width: 425px;
 }
 
-.card-body {
-    max-width: 425px;
-    padding: 1em 0;
-}
 /*----------------------------------------------Contact form */
+
 textarea {
     width: 90%;
     height: 75px;
+}
+
+textarea,
+#name,
+#email {
+    border-style: none;
+    border-bottom: .5px solid #000 !important;
 }
 
 .form-group,
@@ -119,20 +138,7 @@ textarea {
     margin: 1rem;
 }
 
-textarea,
-#name,
-#email {
-    border-style: none;
-    border-bottom: .5px solid #000 !important;
-}
 /*-------------------------------------------------Portfolio */
-#portfolio-text {
-    margin-top: 2rem;
-}
-
-#portfolio {
-    margin: 6rem auto;
-}
 
 .portfolio-img {
    max-width: 100px;
@@ -142,12 +148,22 @@ textarea,
    border: 0;
 }
 
+#portfolio-text {
+    margin-top: 2rem;
+}
+
+#portfolio {
+    margin: 6rem auto;
+}
+
 #portfolio-box {
     max-width: 650px;
     max-height: 650px;
     overflow: auto;
 }
+
 /*-------------------------------Footer */
+
 i {
     font-size: 2rem;
 }
@@ -160,43 +176,58 @@ footer {
     position: static;
     background-color: #fff;
 }
+
 /*----------------------------Media Queries */
+
 @media (max-width: 425px) {
+
     #portfolio-text,
     #index-text {
         margin: 2rem 0 1rem 0;
     }
+
     #index-carousel {
         margin: 7.5rem 0 6rem 0;
     }
+
     #contact-container {
         margin: 8rem 0 6rem 0;
     }
+
     #nav{
         background-color: #fff;
         padding-bottom: 1em;
     }
+
 }
+
 @media (min-width: 768px) {
-        .card-body {
-            max-width: 425px;
-            padding: 1em 0;
-        }
+
+    .card-body {
+        max-width: 425px;            
+        padding: 1em 0;
+    }
+
 }
+
 @media (max-width: 768px) { 
-        h2, 
-        h3 {
-            text-align: center;
-        }
-        #portfolio-box,
-        #portfolio {
-            margin-left: auto;
-            margin-right: auto;
-        }
-        #portfolio-text,
-        #index-text,
-        #about-text,
-        #contact-text {
-            text-align: center;
-        }
+
+    h2, 
+    h3 {
+        text-align: center;
+    }
+    
+    #portfolio-box,
+    #portfolio {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #portfolio-text,
+    #index-text,
+    #about-text,
+    #contact-text {
+        text-align: center;
+    }
+
 }
