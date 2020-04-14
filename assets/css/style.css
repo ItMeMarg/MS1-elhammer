@@ -123,6 +123,11 @@ textarea,
 
 }
 
+#name,
+#email {
+    width: 75%;
+}
+
 .form-group,
 #contact-btn {
     padding: .5em;
