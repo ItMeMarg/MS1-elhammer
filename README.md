@@ -72,7 +72,8 @@ All media used in this site was obtained from Elhammer’s [personal Instagram a
 ###  Acknowledgements
 
 *  Brooklyn-based tattoo artist [Rosa Bluestone Perr’s portfolio website](https://bluestonebabe.com/) inspired the light-on-text, heavy-on-imagery content design.
-* Ylva/Ulf’s home studio, [Lilith Tattoo studio](https://lilithtattooseattle.com) inspired design and color choices.
+*  Ylva/Ulf’s home studio, [Lilith Tattoo studio](https://lilithtattooseattle.com) inspired design and color choices.
+*  [@anna-ci's "How to make a Kick-Ass first Milestone"](https://slack-files.com/files-pri-safe/T0L30B202-FL1APG8SW/milestone_1_part_1.pdf?c=1586896605-8e988cbd8fc198b0) series of posts were incredibly helpful. Through @anna_ci's sheets I was able to [add a favicon] (https://youtu.be/kEf1xSwX5D8). 
 *  [Algonquin Design](https://learn-the-web.algonquindesign.ca/topics/html-semantics-cheat-sheet/)'s cheat sheets offered immense reference help.
 *  [W3Schools](https://www.w3schools.com/), particularly [their how-to sections](https://www.w3schools.com/howto/default.asp) helped me play around with options and see possibilities to figure out what frameworks could be best used for this project. 
 *  My partner, [Eric](https://twitter.com/MiltantModerate), and our two cats, [Virginia](https://twitter.com/MiltantModerate/status/1249902617880186885) and [Elliott](https://twitter.com/MiltantModerate/status/1249477542488113153), lovingly supported me during the entirety of this project. 
