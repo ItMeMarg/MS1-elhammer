@@ -5,6 +5,8 @@ This project is a portfolio website for Seattle-based non-binary tattoo apprenti
 ## Demo 
 
 View the live site [here](https://itmemarg.github.io/MS1-elhammer/).
+
+
  
 ##  UX
 
@@ -63,9 +65,12 @@ This project was created on and can be run on GitHub Pages.
 
 ### Content
 
-All textual content was written by me. Any code snippits taken from elsewhere are credited within the code.
+All textual content was written by me. Any code snippits taken from elsewhere are credited within the code and are below:
 *  [W3.CSS](https://www.w3schools.com/w3css/w3css_modal.asp) for modal element within the Portfolio page
-*   [Bootstrap](https://getbootstrap.com/docs/4.0/components/carousel/) for carousel element within Index page
+*  [Bootstrap](https://getbootstrap.com/docs/4.0/components/carousel/) for carousel element within Index page
+*  [W3](https://www.w3schools.com/js/js_popup.asp) temporary popup JavaScript box redirecting users to communicate with Elhammer through Instragram until form is active
+*  [mmtuts](https://youtu.be/kEf1xSwX5D8) wrote this neat favicon code, which I was directed to by @anna_ci
+
 
 ###  Media
 
@@ -75,9 +80,9 @@ All media used in this site was obtained from Elhammer’s [personal Instagram a
 
 *  Brooklyn-based tattoo artist [Rosa Bluestone Perr’s portfolio website](https://bluestonebabe.com/) inspired the light-on-text, heavy-on-imagery content design.
 *  Ylva/Ulf’s home studio, [Lilith Tattoo studio](https://lilithtattooseattle.com) inspired design and color choices.
-*  [@anna-ci's "How to make a Kick-Ass first Milestone"](https://slack-files.com/files-pri-safe/T0L30B202-FL1APG8SW/milestone_1_part_1.pdf?c=1586896605-8e988cbd8fc198b0) series of posts were incredibly helpful. Through @anna_ci's sheets I was able to [add a favicon] (https://youtu.be/kEf1xSwX5D8). 
+*  [@anna-ci's "How to make a Kick-Ass first Milestone"](https://slack-files.com/files-pri-safe/T0L30B202-FL1APG8SW/milestone_1_part_1.pdf?c=1586896605-8e988cbd8fc198b0) series of posts were incredibly helpful.
 *  [Algonquin Design](https://learn-the-web.algonquindesign.ca/topics/html-semantics-cheat-sheet/)'s cheat sheets offered immense reference help.
 *  [W3Schools](https://www.w3schools.com/), particularly [their how-to sections](https://www.w3schools.com/howto/default.asp) helped me play around with options and see possibilities to figure out what frameworks could be best used for this project. 
-*  My partner, [Eric](https://twitter.com/MiltantModerate), and our two cats, [Virginia](https://twitter.com/MiltantModerate/status/1249902617880186885) and [Elliott](https://twitter.com/MiltantModerate/status/1249477542488113153), lovingly supported me during the entirety of this project. 
+*  My partner, Eric, and our two cats, [Virginia](https://twitter.com/MiltantModerate/status/1249902617880186885) and [Elliott](https://twitter.com/MiltantModerate/status/1249477542488113153), lovingly supported me during the entirety of this project. 
 *  My mentor, Sindhu Kolli, offered invaluable advice and helpful critique throughout my time working on this project. Saying this project would not be finished without her guidance cannot be understated. :) 
 
