@@ -47,6 +47,12 @@ When choosing a font, we wanted to honor Elhammer’s Swedish heritage. We found
 
 ##  Testing
 
+This project was consistantly checked with Google Chrome Development Tools while during development. As the project wrapped up, it was checked on Safari browser both on Mac and iPhone. 
+
+Two bugs that persist in this project:
+*  Carousel on Index - a little "jump" happens on smaller screens. This bug [was supposed to have been fixed](https://github.com/twbs/bootstrap/issues/22420) in the latest Bootstrap update (4.4.4). Updating this project's Bootstrap stylesheets led to further bugs. With more time, this will be addressed. 
+*  Portfolio modal image size - when selected, images enlarge to a size and a position that is not good UX. With further JavaScript knowledge, this will be properly addressed to have a more centered and smaller pop-up. 
+
 ##  Deployment
 This project was created on and can be run on GitHub Pages. 
 
@@ -55,7 +61,9 @@ This project was created on and can be run on GitHub Pages.
 
 ### Content
 
-All textual content was written by me.
+All textual content was written by me. Any code snippits taken from elsewhere are credited within the code.
+*  [W3.CSS](https://www.w3schools.com/w3css/w3css_modal.asp) for modal element within the Portfolio page
+*   [Bootstrap](https://getbootstrap.com/docs/4.0/components/carousel/) for carousel element within Index page
 
 ###  Media
 
@@ -64,5 +72,9 @@ All media used in this site was obtained from Elhammer’s [personal Instagram a
 ###  Acknowledgements
 
 *  Brooklyn-based tattoo artist [Rosa Bluestone Perr’s portfolio website](https://bluestonebabe.com/) inspired the light-on-text, heavy-on-imagery content design.
-* Ylva/Ulf’s home studio, [Lilith Tattoo studio](https://lilithtattooseattle.com) inspired design and color choices. 
+* Ylva/Ulf’s home studio, [Lilith Tattoo studio](https://lilithtattooseattle.com) inspired design and color choices.
+*  [Algonquin Design](https://learn-the-web.algonquindesign.ca/topics/html-semantics-cheat-sheet/)'s cheat sheets offered immense reference help.
+*  [W3Schools](https://www.w3schools.com/), particularly [their how-to sections](https://www.w3schools.com/howto/default.asp) helped me play around with options and see possibilities to figure out what frameworks could be best used for this project. 
+*  My partner, [Eric](https://twitter.com/MiltantModerate), and our two cats, [Virginia](https://twitter.com/MiltantModerate/status/1249902617880186885) and [Elliott](https://twitter.com/MiltantModerate/status/1249477542488113153), lovingly supported me during the entirety of this project. 
+*  My mentor, Sindhu Kolli, offered invaluable advice and helpful critique throughout my time working on this project. Saying this project would not be finished without her guidance cannot be understated. :) 
 
