@@ -42,7 +42,7 @@ a {
 }
 
 a:hover {
-    color: #666;
+    color: #c93260;
     text-decoration: none;
 }
 
@@ -119,11 +119,17 @@ textarea,
 #email {
     border-style: none;
     border-bottom: .5px solid #000 !important;
+    margin: .75rem;
+
 }
 
 .form-group,
 #contact-btn {
     padding: .5em;
+}
+
+#contact-btn:hover {
+    background-color: #c93260;
 }
 
 #contact-container {
