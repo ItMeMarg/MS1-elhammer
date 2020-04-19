@@ -6,6 +6,10 @@ This project is a portfolio website for Seattle-based non-binary tattoo apprenti
 
 View Elhammer's live site [here](https://itmemarg.github.io/MS1-elhammer/).
 
+Below is a mockup of the pages, created using [techsini](https://techsini.com/multi-mockup/index.php).
+
+![Demo mockup of site](https://github.com/ItMeMarg/MS1-elhammer/blob/master/assets/images/demo.png)
+
 
  
 ##  UX
@@ -34,7 +38,7 @@ When choosing a font, we wanted to honor Elhammer’s Swedish heritage. We found
 ###  Features Left to Implement
 *  Further editing of Portfolio gallery modal, particularily sizing; this requires more knowledge of JavaScript, which I have not yet acquired. :)
 *  Separate contact pages for illustration and tattoo appointments with more detailed contact forms, as well as portfolio pages with more images.
-*  The contact form will be developed as I gain those skills. 
+*  The contact form will be developed as I gain back-end skills. 
 
 ##  Technologies Used
 
@@ -52,10 +56,10 @@ When choosing a font, we wanted to honor Elhammer’s Swedish heritage. We found
 
 This project was consistantly checked with Google Chrome Development Tools while during development. As the project wrapped up, it was checked on Safari browser both on Mac and iPhone. 
 
-Two bugs that persist in this project:
+A few bugs that persist in this project:
 *  Carousel on Index - a little "jump" happens on smaller screens. This bug [was supposed to have been fixed](https://github.com/twbs/bootstrap/issues/22420) in the latest Bootstrap update (4.4.4). Updating this project's Bootstrap stylesheets led to further bugs, so it was decided to stick with the older version for the time being. 
 *  Portfolio modal image size - when selected, the pop-up is a bit too large and awkwardly positioned, leading to bad UX. With further JavaScript knowledge, this will be properly addressed to have a smaller and more centered pop-up. 
-* Portfolio page footer and nav sizes smaller than other pages - after adding the modal and JavaScript script, the aforementioned elements shrunk in size. To fix this I tried changing these elements' sizes to % rather than rem, however did not find successful.  
+* Portfolio page footer and nav sizes smaller than other pages - after adding the modal and JavaScript script, the aforementioned elements shrunk in size. I tried changing these elements' sizes to % rather than rem, but did not have success. 
 
 ##  Deployment
 This project was created on and can be run on GitHub Pages. 
@@ -65,11 +69,13 @@ This project was created on and can be run on GitHub Pages.
 
 ### Content
 
-All textual content was written by me. Any code snippits taken from elsewhere are credited within the code and are below:
-*  [W3.CSS](https://www.w3schools.com/w3css/w3css_modal.asp) for modal element within the Portfolio page
-*  [Bootstrap](https://getbootstrap.com/docs/4.0/components/carousel/) for carousel element within Index page
-*  [W3](https://www.w3schools.com/js/js_popup.asp) temporary popup JavaScript box redirecting users to communicate with Elhammer through Instragram until form is active
-*  [mmtuts](https://youtu.be/kEf1xSwX5D8) wrote this neat favicon code, which I was directed to by @anna_ci
+All textual content was written by me. 
+
+Any code snippits taken from elsewhere are credited within the code and are below:
+*  [W3.CSS](https://www.w3schools.com/w3css/w3css_modal.asp) for modal element on the Portfolio page
+*  [Bootstrap](https://getbootstrap.com/docs/4.0/components/carousel/) for carousel element on the Index page
+*  [W3](https://www.w3schools.com/js/js_popup.asp) temporary pop-up JavaScript box redirecting users to communicate with Elhammer through Instragram until form is active
+*  [mmtuts](https://youtu.be/kEf1xSwX5D8) wrote the neat favicon code, which I was directed to by @anna_ci
 
 
 ###  Media
