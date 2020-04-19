@@ -4,17 +4,16 @@ This project is a portfolio website for Seattle-based non-binary tattoo apprenti
 
 ## Demo 
 
-View Elhammer's live site [here](https://itmemarg.github.io/MS1-elhammer/).
+A live demo of the site can be found [here](https://itmemarg.github.io/MS1-elhammer/).
 
-Below is a mockup of the pages, created using [techsini](https://techsini.com/multi-mockup/index.php).
+![Website demo](https://github.com/ItMeMarg/MilestoneOne/blob/master/assets/images/demo.png?raw=true)
+This mockup was created using [techsini](https://techsini.com/multi-mockup/index.php).
 
-![Demo mockup of site](https://github.com/ItMeMarg/MS1-elhammer/blob/master/assets/images/demo.png)
 
-
- 
 ##  UX
 
-*  As a potential client interested in supporting a QTPOC-owned tattoo studio, I want to learn more about Elhammer’s identity and work. I want to see both a biography and a gallery of their work to decide if I am interested in working with them.
+*  As a potential client coming from [Lilith Tattoo’s website](https://lilithtattooseattle.com), I want to get to know a bit about Elhammer. I want to see both a biography and a gallery of their work to decide if I am interested in working with them.
+
 
 *  As a potential client interested in working with Elhammer, I want to be able to contact them to set up an appointment/commission a piece of art.
 
