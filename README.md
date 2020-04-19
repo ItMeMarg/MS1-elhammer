@@ -1,40 +1,30 @@
 #  Ylva/Ulf Elhammer - Tattoo Apprentice Portfolio 
-
 This project is a portfolio website for Seattle-based non-binary tattoo apprentice Ylva/Ulf Elhammer. Their mentor is [Jude Le Tronik](https://judeletronik.com), a well-known Queer tattoo artist and the owner of [Lilith Tattoo](https://lilithtattooseattle.com). All artists at Lilith have a personal website linked from the studio’s [Artists page](https://lilithtattooseattle.com/artists)—except Elhammer! This website will help grow both awareness of and interest in their work, as well as allow perspective clients to connect with them.
 
 ## Demo 
-
 A live demo of the site can be found [here](https://itmemarg.github.io/MS1-elhammer/).
 
 ![Website demo](https://github.com/ItMeMarg/MilestoneOne/blob/master/assets/images/demo.png?raw=true)
 This mockup was created using [techsini](https://techsini.com/multi-mockup/index.php).
 
-
 ##  UX
+*  As a potential client coming from [Lilith Tattoo’s website](https://lilithtattooseattle.com), I want to get to know a bit about Elhammer. I want to see both a biography and a gallery of their work to decide if I am interested in working with them.
+![About page](https://github.com/ItMeMarg/MilestoneOne/blob/master/assets/images/about.png?raw=true)
+![Portfolio page](https://github.com/ItMeMarg/MilestoneOne/blob/master/assets/images/portfolio.png?raw=true)
 
-> As a potential client coming from [Lilith Tattoo’s website](https://lilithtattooseattle.com), I want to get to know a bit about Elhammer. I want to see both a biography and a gallery of their work to decide if I am interested in working with them.
-> ![About page](https://github.com/ItMeMarg/MilestoneOne/blob/master/assets/images/about.png?raw=true)
-> ![Portfolio page](https://github.com/ItMeMarg/MilestoneOne/blob/master/assets/images/portfolio.png?raw=true)
-
-
-> As a potential client interested in working with Elhammer, I want to be able to contact them to work together.
-> ![Contact page](https://github.com/ItMeMarg/MilestoneOne/blob/master/assets/images/contact.png?raw=true)
+*  As a potential client interested in working with Elhammer, I want to be able to contact them to work together.
+![Contact page](https://github.com/ItMeMarg/MilestoneOne/blob/master/assets/images/contact.png?raw=true)
 
 Initial [wireframes](https://github.com/ItMeMarg/MilestoneOne/blob/master/wireframes/milestone1.pdf) do not include features we added for better UX, such as the About page being separate from the Home page and applying a consistant layout structure across the site. 
 
-
 ## Design Choices
-
 This website was designed to complement the design and overall “feel” of [Lilith Tattoo’s website](https://lilithtattooseattle.com). To accomplish this, we committed to a black/grey color scheme with maximum white space. 
 ![Lilith Studio logo](https://github.com/ItMeMarg/MilestoneOne/blob/master/assets/images/lilithlogo.png?raw=true)
 
 When choosing a font, we wanted to honor Elhammer’s Swedish heritage. We found Josefin Sans to feature as the sole font used on the website; as [Figma](https://figma.com/google-fonts/josefin-sans-font-pairings/) notes, it “reflects Swedish design.” To ensure usability, we set the “ylva/ulf elhammer” #navbar-brand, headings, and paragraphs to a weight of 300; we set the #navbar-menu to a bolder weight of 600. This design choice differentiates features without the need for an additional font type. 
 
-
 ##  Features
-
 ###  Existing Features
-
 *  Carousel showing select pieces from Elhammer’s portfolio - brings in users’ attention immediately when landing on the site and allows them to see some of Elhammer’s work.
 *  Contact form - the chosen questions/inputs are minimal enough to keep the user’s attention and make it simple to complete and send the form. This form is **not** yet active.
 *  Portfolio gallery - allows users to initially see an overview of Elhammer’s work as smaller thumbnails. When selected, images enlarge in a modal. 
@@ -61,7 +51,6 @@ When choosing a font, we wanted to honor Elhammer’s Swedish heritage. We found
 2.  [Font Awesome](https://fontawesome.com)
 
 ##  Testing
-
 This project was consistantly checked with Google Chrome Development Tools during development. As the project wrapped up, it was checked on Safari browser both on Mac and iPhone, as well as on Chrome on a mobile running Android. 
 
 A few bugs that persist in this project:
@@ -69,14 +58,13 @@ A few bugs that persist in this project:
 *  Portfolio modal image size - when selected, the pop-up is a bit too large and awkwardly positioned, leading to bad UX. With further JavaScript knowledge, this will be properly addressed to have a smaller and more centered pop-up. 
 * Portfolio page footer and nav sizes smaller than other pages - after adding the modal and JavaScript script, the aforementioned elements shrunk in size. I tried changing these elements' sizes to % rather than rem, but did not have success. 
 
+
 ##  Deployment
-This project was created on and can be run on GitHub Pages. 
+This project was deployed with GitHub Pages, allowing for any changes made to the master branch to publish easily to the website. 
+
 
 ##  Credits
-
-
 ### Content
-
 All textual content was written by me. 
 
 Code snippits taken from elsewhere are credited within the code and are below:
@@ -87,11 +75,9 @@ Code snippits taken from elsewhere are credited within the code and are below:
 
 
 ###  Media
-
 All media used in this site was obtained from Elhammer’s [personal Instagram account](https://www.instagram.com/yelvis/) and [tattoo Instagram account](https://www.instagram.com/ylva.tattoo).
 
 ###  Acknowledgements
-
 *  Brooklyn-based tattoo artist [Rosa Bluestone Perr’s portfolio website](https://bluestonebabe.com/) inspired the light-on-text, heavy-on-imagery content design.
 *  Ylva/Ulf’s home studio, [Lilith Tattoo studio](https://lilithtattooseattle.com) inspired design and color choices.
 *  [@anna-ci's "How to make a Kick-Ass first Milestone"](https://slack-files.com/files-pri-safe/T0L30B202-FL1APG8SW/milestone_1_part_1.pdf?c=1586896605-8e988cbd8fc198b0) series of posts were incredibly helpful.
