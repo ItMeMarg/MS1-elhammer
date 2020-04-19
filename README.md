@@ -12,12 +12,21 @@ This mockup was created using [techsini](https://techsini.com/multi-mockup/index
 
 ##  UX
 
-*  As a potential client coming from [Lilith Tattoo’s website](https://lilithtattooseattle.com), I want to get to know a bit about Elhammer. I want to see both a biography and a gallery of their work to decide if I am interested in working with them.
-![About page](https://github.com/ItMeMarg/MilestoneOne/blob/master/assets/images/about.png)
+> As a potential client coming from [Lilith Tattoo’s website](https://lilithtattooseattle.com), I want to get to know a bit about Elhammer. I want to see both a biography and a gallery of their work to decide if I am interested in working with them.
+> ![About page](https://github.com/ItMeMarg/MilestoneOne/blob/master/assets/images/about.png?raw=true)
+> ![Portfolio page](https://github.com/ItMeMarg/MilestoneOne/blob/master/assets/images/portfolio.png?raw=true)
 
-*  As a potential client interested in working with Elhammer, I want to be able to contact them to set up an appointment/commission a piece of art.
 
-This website was designed to complement the design and overall “feel” of [Lilith Tattoo’s website](https://lilithtattooseattle.com). To accomplish this, we committed to a black/grey color scheme with maximum white space. Initial [wireframes](../wireframes/milestone1.pdf) do not include features we added for better UX.
+> As a potential client interested in working with Elhammer, I want to be able to contact them to work together.
+> ![Contact page](https://github.com/ItMeMarg/MilestoneOne/blob/master/assets/images/contact.png?raw=true)
+
+Initial [wireframes](https://github.com/ItMeMarg/MilestoneOne/blob/master/wireframes/milestone1.pdf) do not include features we added for better UX, such as the About page being separate from the Home page and applying a consistant layout structure across the site. 
+
+
+## Design Choices
+
+This website was designed to complement the design and overall “feel” of [Lilith Tattoo’s website](https://lilithtattooseattle.com). To accomplish this, we committed to a black/grey color scheme with maximum white space. 
+![Lilith Studio logo](https://github.com/ItMeMarg/MilestoneOne/blob/master/assets/images/lilithlogo.png?raw=true)
 
 When choosing a font, we wanted to honor Elhammer’s Swedish heritage. We found Josefin Sans to feature as the sole font used on the website; as [Figma](https://figma.com/google-fonts/josefin-sans-font-pairings/) notes, it “reflects Swedish design.” To ensure usability, we set the “ylva/ulf elhammer” #navbar-brand, headings, and paragraphs to a weight of 300; we set the #navbar-menu to a bolder weight of 600. This design choice differentiates features without the need for an additional font type. 
 
@@ -32,12 +41,12 @@ When choosing a font, we wanted to honor Elhammer’s Swedish heritage. We found
 *  Fixed navigation bar and footer - offers quick navigation to other pages or Elhammer’s social media accounts.
 *  Envelope icon on footer - brings the user to the contact page, allowing them the option to reach out at any point of their visit. 
 *  “ylva/ulf elhammer” navbar brand - maintains name awareness throughout the user’s time on the website. 
-*  burger button - collapsing the navigation bar on medium and smaller screens decreases visual overload and layout clunkiness. 
+*  Burger button - collapsing the navigation bar on medium and smaller screens decreases visual overload and layout clunkiness. 
 
 ###  Features Left to Implement
-*  Further editing of Portfolio gallery modal, particularily sizing; this requires more knowledge of JavaScript, which I have not yet acquired. :)
+*  Further editing of Portfolio gallery modal, particularily sizing and positioning. 
 *  Separate contact pages for illustration and tattoo appointments with more detailed contact forms, as well as portfolio pages with more images.
-*  The contact form will be developed as I gain back-end skills. 
+*  The contact form will be properly developed to function as I gain back-end skills. 
 
 ##  Technologies Used
 
@@ -53,7 +62,7 @@ When choosing a font, we wanted to honor Elhammer’s Swedish heritage. We found
 
 ##  Testing
 
-This project was consistantly checked with Google Chrome Development Tools while during development. As the project wrapped up, it was checked on Safari browser both on Mac and iPhone. 
+This project was consistantly checked with Google Chrome Development Tools during development. As the project wrapped up, it was checked on Safari browser both on Mac and iPhone, as well as on Chrome on a mobile running Android. 
 
 A few bugs that persist in this project:
 *  Carousel on Index - a little "jump" happens on smaller screens. This bug [was supposed to have been fixed](https://github.com/twbs/bootstrap/issues/22420) in the latest Bootstrap update (4.4.4). Updating this project's Bootstrap stylesheets led to further bugs, so it was decided to stick with the older version for the time being. 
@@ -70,7 +79,7 @@ This project was created on and can be run on GitHub Pages.
 
 All textual content was written by me. 
 
-Any code snippits taken from elsewhere are credited within the code and are below:
+Code snippits taken from elsewhere are credited within the code and are below:
 *  [W3.CSS](https://www.w3schools.com/w3css/w3css_modal.asp) for modal element on the Portfolio page
 *  [Bootstrap](https://getbootstrap.com/docs/4.0/components/carousel/) for carousel element on the Index page
 *  [W3](https://www.w3schools.com/js/js_popup.asp) temporary pop-up JavaScript box redirecting users to communicate with Elhammer through Instragram until form is active
