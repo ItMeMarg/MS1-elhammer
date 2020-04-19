@@ -23,7 +23,7 @@
     background-color: #fff;
 }
 
-/*-------------------------------------------Fonts */
+/*-------------------------------------------Fonts & colors */
 
 header,
 body {
@@ -31,18 +31,10 @@ body {
     font-size: 1rem;
 }
 
-h3 {
-    color: #4F4F4F;
-}
-
-/*--------------------------------------------Links */
-
-a {
-    color: #4F4F4F;
-}
-
+h3,
+a,
 a:hover {
-    color: #c93260;
+    color: #4F4F4F;
     text-decoration: none;
 }
 
@@ -90,7 +82,7 @@ a:hover {
 
 p a { 
     text-decoration: underline; 
-    text-decoration-color: #c93260; 
+    text-decoration-color: rgba(0,0,0,.5); 
 }
 
 #about {
@@ -120,7 +112,6 @@ textarea,
     border-style: none;
     border-bottom: .5px solid #000 !important;
     margin: .75rem;
-
 }
 
 #name,
@@ -134,7 +125,7 @@ textarea,
 }
 
 #contact-btn:hover {
-    background-color: #c93260;
+    background-color:  #000;
 }
 
 #contact-container {
@@ -182,6 +173,11 @@ textarea,
 
 i {
     font-size: 2rem;
+    color: rgba(0,0,0,.5);
+}
+
+i:hover {
+    color: #000;
 }
 
 footer {
