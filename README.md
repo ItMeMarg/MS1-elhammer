@@ -4,7 +4,7 @@ This project is a portfolio website for Seattle-based non-binary tattoo apprenti
 
 ## Demo 
 
-View the live site [here](https://itmemarg.github.io/MS1-elhammer/).
+View Elhammer's live site [here](https://itmemarg.github.io/MS1-elhammer/).
 
 
  
@@ -29,12 +29,12 @@ When choosing a font, we wanted to honor Elhammer’s Swedish heritage. We found
 *  Fixed navigation bar and footer - offers quick navigation to other pages or Elhammer’s social media accounts.
 *  Envelope icon on footer - brings the user to the contact page, allowing them the option to reach out at any point of their visit. 
 *  “ylva/ulf elhammer” navbar brand - maintains name awareness throughout the user’s time on the website. 
-*  burger button - collapsing the navigation bar on medium and smaller screens offers a cleaner appearance for users, decreasing visual overload or layout clunkiness. 
+*  burger button - collapsing the navigation bar on medium and smaller screens decreases visual overload and layout clunkiness. 
 
 ###  Features Left to Implement
 *  Further editing of Portfolio gallery modal, particularily sizing; this requires more knowledge of JavaScript, which I have not yet acquired. :)
 *  Separate contact pages for illustration and tattoo appointments with more detailed contact forms, as well as portfolio pages with more images.
-*  The contact form will be developed in the future, as I gain those skills. 
+*  The contact form will be developed as I gain those skills. 
 
 ##  Technologies Used
 
@@ -53,9 +53,9 @@ When choosing a font, we wanted to honor Elhammer’s Swedish heritage. We found
 This project was consistantly checked with Google Chrome Development Tools while during development. As the project wrapped up, it was checked on Safari browser both on Mac and iPhone. 
 
 Two bugs that persist in this project:
-*  Carousel on Index - a little "jump" happens on smaller screens. This bug [was supposed to have been fixed](https://github.com/twbs/bootstrap/issues/22420) in the latest Bootstrap update (4.4.4). Updating this project's Bootstrap stylesheets led to further bugs.  
-*  Portfolio modal image size - when selected, images enlarge to a size and a position that is not good UX. With further JavaScript knowledge, this will be properly addressed to have a more centered and smaller pop-up. 
-* Portfolio page footer and nav sizes smaller than other pages - after adding the modal and JavaScript script, the aforementioned elements shrunk in size. To fix this I tried changing the size to % rather than rem, but it was not successful. This bug will be addressed in the future. 
+*  Carousel on Index - a little "jump" happens on smaller screens. This bug [was supposed to have been fixed](https://github.com/twbs/bootstrap/issues/22420) in the latest Bootstrap update (4.4.4). Updating this project's Bootstrap stylesheets led to further bugs, so it was decided to stick with the older version for the time being. 
+*  Portfolio modal image size - when selected, the pop-up is a bit too large and awkwardly positioned, leading to bad UX. With further JavaScript knowledge, this will be properly addressed to have a smaller and more centered pop-up. 
+* Portfolio page footer and nav sizes smaller than other pages - after adding the modal and JavaScript script, the aforementioned elements shrunk in size. To fix this I tried changing these elements' sizes to % rather than rem, however did not find successful.  
 
 ##  Deployment
 This project was created on and can be run on GitHub Pages. 
