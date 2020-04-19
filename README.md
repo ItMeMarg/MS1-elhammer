@@ -13,7 +13,7 @@ This mockup was created using [techsini](https://techsini.com/multi-mockup/index
 ##  UX
 
 *  As a potential client coming from [Lilith Tattoo’s website](https://lilithtattooseattle.com), I want to get to know a bit about Elhammer. I want to see both a biography and a gallery of their work to decide if I am interested in working with them.
-
+![About page](https://github.com/ItMeMarg/MilestoneOne/blob/master/assets/images/about.png)
 
 *  As a potential client interested in working with Elhammer, I want to be able to contact them to set up an appointment/commission a piece of art.
 
