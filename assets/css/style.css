@@ -155,6 +155,11 @@ textarea,
    border: 0;
 }
 
+.w3-modal {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 #portfolio-text {
     margin-top: 2rem;
 }
@@ -192,6 +197,11 @@ footer {
 /*----------------------------Media Queries */
 
 @media (max-width: 425px) {
+
+    .w3-modal {
+    padding-top: 150px;
+    padding-bottom: 125px;
+    }
 
     #portfolio-text,
     #index-text {
