@@ -5,6 +5,7 @@ This project is a portfolio website for Seattle-based non-binary tattoo apprenti
 A live demo of the site can be found [here](https://itmemarg.github.io/MS1-elhammer/).
 
 ![Website demo](https://github.com/ItMeMarg/MilestoneOne/blob/master/assets/images/demo.png?raw=true)
+
 This mockup was created using [techsini](https://techsini.com/multi-mockup/index.php).
 
 ##  UX
