@@ -164,8 +164,8 @@ textarea,
 }
 
 #portfolio-box {
-    max-width: 650px;
-    max-height: 650px;
+    max-width: 500px;
+    max-height: 500px;
     overflow: auto;
 }
 
